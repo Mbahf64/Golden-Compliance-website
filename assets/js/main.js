@@ -14,7 +14,7 @@ function loadComponent(id, file, scriptFile) {
 }
 
 
-// Load header and footer on all pages
+
 document.addEventListener("DOMContentLoaded", function () {
     loadComponent("header", "/assets/components/header.html");
     loadComponent("footer", "/assets/components/footer.html");
@@ -24,3 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
     loadComponent("contact", "/assets/components/contact.html");
     loadComponent("pagination ", "/assets/components/pagination .html");
 });
+
+
