@@ -1,0 +1,63 @@
+<header class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex items-center justify-between flex-wrap">
+        <!-- Logo Section -->
+        <div class="flex items-center">
+            <img src="/assets/images/Logo.png" alt="Logo" class="w-[120px] md:w-[150px]" />
+        </div>
+
+        <!-- Navigation Menu for Desktop -->
+        <ul class="hidden md:flex space-x-[55px] text-[16px] font-semibold mt-4 md:mt-0">
+            <li><a href="/index.html" class="hover:text-blue-500">Home</a></li>
+            <li><a href="/pages/about.html" class="hover:text-blue-500">About Us</a></li>
+            <li><a href="/pages/services.html" class="hover:text-blue-500">Our Services</a></li>
+            <li><a href="/pages/contact.html" class="hover:text-blue-500">Blog</a></li>
+            <li><a href="/pages/blog.html" class="hover:text-blue-500">Contact Us</a></li>
+        </ul>
+
+        <!-- Message Section -->
+        <div class="flex gap-3 items-center mt-4 md:mt-0">
+            <div class="bg-[#217FF3] w-[50px] h-[50px] rounded-[25px] flex items-center justify-center">
+                <img src="/assets/images/message__icon.png" alt="Message Icon" class="w-[20px] h-[16px]" />
+            </div>
+            <div>
+                <p class="text-[12px] md:text-[14px]">Send us a message</p>
+                <p class="text-[16px] font-semibold">golden@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Mobile Hamburger Menu -->
+        <div class="md:hidden flex items-center">
+            <button id="menu-toggle" class="text-[24px]">
+                &#9776; <!-- Hamburger icon -->
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden bg-white shadow-md md:hidden mt-4 p-4">
+        <ul class="space-y-4 text-[16px] font-semibold">
+            <li><a href="/index.html" class="hover:text-blue-500">Home</a></li>
+            <li><a href="/pages/about.html" class="hover:text-blue-500">About Us</a></li>
+            <li><a href="/pages/services.html" class="hover:text-blue-500">Our Services</a></li>
+            <li><a href="/pages/contact.html" class="hover:text-blue-500">Blog</a></li>
+            <li><a href="/pages/blog.html" class="hover:text-blue-500">Contact Us</a></li>
+        </ul>
+        <button id="close-menu" class="absolute top-4 right-4 text-[24px]">&times;</button>
+    </div>
+</header>
+
+<script>
+    // JavaScript for toggling the mobile menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const closeMenu = document.getElementById('close-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    closeMenu.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+</script>
+
