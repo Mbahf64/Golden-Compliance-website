@@ -1,12 +1,18 @@
-// Function to load external HTML files
-function loadComponent(id, file) {
+function loadComponent(id, file, scriptFile) {
     fetch(file)
         .then(response => response.text())
         .then(data => {
-            document.getElementById(id).innerHTML = data;
+            const container = document.getElementById(id);
+            container.innerHTML = data;
+
+            // Now load the script after content is added
+            const script = document.createElement('script');
+            script.src = scriptFile;
+            document.body.appendChild(script);
         })
         .catch(error => console.error(`Error loading ${file}:`, error));
 }
+
 
 // Load header and footer on all pages
 document.addEventListener("DOMContentLoaded", function () {
@@ -16,4 +22,5 @@ document.addEventListener("DOMContentLoaded", function () {
     loadComponent("our_Strength", "/assets/components/our_Strength.html");
     loadComponent("blog", "/assets/components/blog.html");
     loadComponent("contact", "/assets/components/contact.html");
+    loadComponent("pagination ", "/assets/components/pagination .html");
 });
