@@ -4,84 +4,84 @@ const blogPosts = [
       title: "The Golden Path to Compliance: Why Proactive Guidance Matters",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "In today’s fast-paced regulatory environment, staying ahead of compliance requirements is more critical than ever. Non-compliance can lead to hefty fines, reputational damage, and operational disruptions. […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_2.png",
       title: "Robust Compliance Programs: The Golden Compliance Approach",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Creating a strong compliance program is not just about checking boxes; it’s about embedding a culture of compliance into the fabric of your organization. Golden Compliance specializes in designing and  […]",
-      link: "#"
+      link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_3.png",
       title: "Mitigating Compliance Risks with Golden Compliance",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Compliance risks are an inevitable part of doing business, but they don’t have to be overwhelming. Golden Compliance is dedicated to helping businesses mitigate these risks through strategic  […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_1.png",
       title: "The Golden Path to Compliance: Why Proactive Guidance Matters",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "In today’s fast-paced regulatory environment, staying ahead of compliance requirements is more critical than ever. Non-compliance can lead to hefty fines, reputational damage, and operational disruptions. […]",
-      link: "#"
+      link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_2.png",
       title: "Robust Compliance Programs: The Golden Compliance Approach",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Creating a strong compliance program is not just about checking boxes; it’s about embedding a culture of compliance into the fabric of your organization. Golden Compliance specializes in designing and  […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_3.png",
       title: "Mitigating Compliance Risks with Golden Compliance",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Compliance risks are an inevitable part of doing business, but they don’t have to be overwhelming. Golden Compliance is dedicated to helping businesses mitigate these risks through strategic  […]",
-      link: "#"
+     link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_1.png",
       title: "The Golden Path to Compliance: Why Proactive Guidance Matters",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "In today’s fast-paced regulatory environment, staying ahead of compliance requirements is more critical than ever. Non-compliance can lead to hefty fines, reputational damage, and operational disruptions. […]",
-      link: "#"
+      link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_2.png",
       title: "Robust Compliance Programs: The Golden Compliance Approach",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Creating a strong compliance program is not just about checking boxes; it’s about embedding a culture of compliance into the fabric of your organization. Golden Compliance specializes in designing and  […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_3.png",
       title: "Mitigating Compliance Risks with Golden Compliance",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Compliance risks are an inevitable part of doing business, but they don’t have to be overwhelming. Golden Compliance is dedicated to helping businesses mitigate these risks through strategic  […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_1.png",
       title: "The Golden Path to Compliance: Why Proactive Guidance Matters",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "In today’s fast-paced regulatory environment, staying ahead of compliance requirements is more critical than ever. Non-compliance can lead to hefty fines, reputational damage, and operational disruptions. […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_2.png",
       title: "Robust Compliance Programs: The Golden Compliance Approach",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Creating a strong compliance program is not just about checking boxes; it’s about embedding a culture of compliance into the fabric of your organization. Golden Compliance specializes in designing and  […]",
-      link: "#"
+      link: "/pages/blog-content.html"
     },
     {
       image: "/assets/images/blog_image_3.png",
       title: "Mitigating Compliance Risks with Golden Compliance",
       date: "Olivia Rhye • 20 Jan 2024",
       excerpt: "Compliance risks are an inevitable part of doing business, but they don’t have to be overwhelming. Golden Compliance is dedicated to helping businesses mitigate these risks through strategic  […]",
-      link: "#"
+       link: "/pages/blog-content.html"
     },
 
 
